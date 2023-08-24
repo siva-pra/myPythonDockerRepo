@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: mypython
-        image: pushimages.azurecr.io/nginx:#{Build.BuildId}#
+        image: pushimages.azurecr.io/python:#{Build.BuildId}#
         ports:
         - containerPort: 5000
 # service type loadbalancer       
